@@ -3,5 +3,7 @@ import { Stack } from "./Stack";
 
 export interface FreeStack<T> extends Stack<T>, Queue<T>, UpsidedownQueue<T> {
   contains(value: T): boolean;
+  moveToTop(value: T): boolean;
+  moveToBottom(value: T): boolean;
   clear(): void;
 }
