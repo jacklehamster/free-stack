@@ -1,9 +1,12 @@
-import { Hello } from "bun-template";
+import { DoubleLinkList, Stack } from "free-stack";
 import Bao from "baojs";
 import serveStatic from "serve-static-bun";
 
 const app = new Bao();
-console.log(Hello.hello());
+
+const stack: Stack<string> = new DoubleLinkList<string>("");
+stack.pushTop("hello");
+console.log(stack.popTop());
 
 app.get("/*any", serveStatic("/", { middlewareMode: "bao" }));
 

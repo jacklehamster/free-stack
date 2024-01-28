@@ -1,23 +1,21 @@
 {
-  "name": "bun-template",
+  "name": "free-stack",
   "module": "src/index.ts",
-  "description": "Bun template for creating projects using bunjs",
-  "version": "1.0.28",
+  "description": "Free-stack is a stack that also behave like a queue. You can push/pop on top, but you can also push/pop on bottom. You can even look for items in the middle, and move them up or down. It's all free! just like this package.",
+  "version": "1.0.0",
   "keywords": [
     "bun",
     "bunjs",
     "typescript",
-    "template",
-    "npm",
-    "np",
-    "publish",
-    "git"
+    "stack",
+    "queue",
+    "doublelinklist"
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:jacklehamster/bun-template.git"
+    "url": "https://github.com/jacklehamster/free-stack.git"
   },
-  "homepage": "https://jacklehamster.github.io/bun-template/",
+  "homepage": "<fill in homepage>",
   "author": {
     "name": "Jack Le Hamster",
     "email": "jacklehamster@gmail.com"
@@ -65,5 +63,7 @@
   "peerDependencies": {
     "typescript": "^5.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "bun-pool": "^1.0.4"
+  }
 }

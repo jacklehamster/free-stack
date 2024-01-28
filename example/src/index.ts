@@ -1,3 +1,3 @@
-import { Hello } from "bun-template";
+import { DoubleLinkList } from "free-stack";
 
-export { Hello };
+export { DoubleLinkList };

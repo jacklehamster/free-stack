@@ -1,7 +1,17 @@
-# bun-template
-Bun template for creating projects using bunjs
+# free-stack
+Free stack provides a freeform stack / queue implemented as a Double Linked-List.
+You can use it as:
+- a stack
+- a queue
+- a free stack, which is both a stack and a queue. It goes both ways
+- a set, that's fine too
 
-![](https://jacklehamster.github.io/bun-template/icon.png)
+- All operations are O(1), because the list has an internal hashmap for finding items by value.
+- In case you're still worried about performance, it also uses an ObjectPool to optimize on allocations.
+- Oh, and it's built on top of Bun, so you know it comes out fast and delicious!
+
+
+![](https://jacklehamster.github.io/free-stack/icon.png)
 ## Install bun
 
 https://bun.sh/
@@ -21,8 +31,8 @@ curl -fsSL https://bun.sh/install | bash
 
 ## Run example
 
-[https://jacklehamster.github.io/bun-template/example/](https://jacklehamster.github.io/bun-template/example/)
+[https://jacklehamster.github.io/free-stack/example/](https://jacklehamster.github.io/free-stack/example/)
 
 ## Github Source
 
-[https://github.com/jacklehamster/bun-template/](https://github.com/jacklehamster/bun-template/)
+[https://github.com/jacklehamster/free-stack/](https://github.com/jacklehamster/free-stack/)
