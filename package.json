@@ -2,7 +2,7 @@
   "name": "free-stack",
   "module": "src/index.ts",
   "description": "Free-stack is a stack that also behave like a queue. You can push/pop on top, but you can also push/pop on bottom. You can even look for items in the middle, and move them up or down. It's all free! just like this package.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "keywords": [
     "bun",
     "bunjs",
