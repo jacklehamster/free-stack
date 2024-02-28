@@ -1,5 +1,14 @@
 # free-stack
+
+[![npm version](https://badge.fury.io/js/free-stack.svg)](https://www.npmjs.com/package/free-stack)
+
+![](https://jacklehamster.github.io/free-stack/icon.png)
+
+
+
 Free stack provides a freeform stack / queue implemented as a Double Linked-List.
+
+
 ## You can use it as:
 - a stack
 - a queue
