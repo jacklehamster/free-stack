@@ -1,7 +1,7 @@
 import { DoubleLinkList } from "./DoubleLinkList";
 
 describe("DoubleLinkList", () => {
-  let doubleLinkList;
+  let doubleLinkList: DoubleLinkList<string>;
 
   beforeEach(() => {
     doubleLinkList = new DoubleLinkList("edge");
