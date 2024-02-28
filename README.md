@@ -44,9 +44,6 @@ stack.pushTop("something");
 const something = stack.popTop();  //  <= returns "something"
 ```
 
-
-![](https://jacklehamster.github.io/free-stack/icon.png)
-
 ## Github Source
 
 [https://github.com/jacklehamster/free-stack/](https://github.com/jacklehamster/free-stack/)
